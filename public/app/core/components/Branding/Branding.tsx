@@ -60,7 +60,7 @@ export class Branding {
   static MenuLogo = MenuLogo;
   static LoginBoxBackground = LoginBoxBackground;
   static AppTitle = 'JWF Dashboard';
-  static LoginTitle = 'JWF SmartDashboard';
+  static LoginTitle = 'Welcome to your dashboards';
   static GetLoginSubTitle = (): null | string => {
     return null;
   };
