@@ -73,6 +73,7 @@ export const Icon = React.forwardRef<HTMLDivElement, IconProps>(
           className={cx(styles.icon, className, type === 'mono' ? { [styles.orange]: name === 'favorite' } : '')}
           style={style}
         />
+        {/* <img className={className} src="public/img/jwf.png" alt="jwf" /> */}
       </div>
     );
   }

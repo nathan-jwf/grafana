@@ -33,7 +33,6 @@ export function NavBarMenu({ activeItem, navItems, searchBarHidden, onClose }: P
   const backdropRef = useRef(null);
   const { dialogProps } = useDialog({}, ref);
   const [isOpen, setIsOpen] = useState(false);
-
   const onMenuClose = () => setIsOpen(false);
 
   const { overlayProps, underlayProps } = useOverlay(
