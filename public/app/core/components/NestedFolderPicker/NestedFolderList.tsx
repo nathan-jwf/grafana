@@ -265,7 +265,7 @@ const getStyles = (theme: GrafanaTheme2) => {
         top: 0,
         width: 4,
         borderRadius: theme.shape.radius.default,
-        backgroundImage: theme.colors.gradients.brandVertical,
+        backgroundImage: "linear-gradient(to right bottom, rgb(26, 117, 184), rgb(0, 58, 112))",
       },
     }),
 

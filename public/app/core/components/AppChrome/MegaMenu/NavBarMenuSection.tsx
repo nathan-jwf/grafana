@@ -108,8 +108,7 @@ const getStyles = (theme: GrafanaTheme2) => ({
       transform: 'translateY(-50%)',
       width: theme.spacing(0.5),
       borderRadius: theme.shape.borderRadius(1),
-      backgroundImage: "red",
-      // backgroundImage: theme.colors.gradients.brandVertical,
+      backgroundImage: "linear-gradient(to right bottom, rgb(26, 117, 184), rgb(0, 58, 112))",
     },
   }),
   hasActiveChild: css({
