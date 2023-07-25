@@ -10,7 +10,7 @@ export interface BrandComponentProps {
 }
 
 export const LoginLogo: FC<BrandComponentProps & { logo?: string }> = ({ className, logo }) => {
-  return <img className={className} src={`${logo ? logo : 'public/img/jwf.png'}`} alt="JWF" />;
+  return <img className={className} src={`${logo ? logo : 'public/img/stream-logo-grey.png'}`} alt="JWF" />;
 };
 
 const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
@@ -24,7 +24,7 @@ const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
       right: 0;
       bottom: 0;
       top: 0;
-      background: url(public/img/JWF_Background.svg);
+      background: linear-gradient(to right bottom, rgb(26, 117, 184), rgb(0, 58, 112));
       background-position: top center;
       background-size: auto;
       background-repeat: no-repeat;
@@ -43,7 +43,7 @@ const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
 };
 
 const MenuLogo: FC<BrandComponentProps> = ({ className }) => {
-  return <img className={className} src="public/img/jwf.png" alt="jwf" />;
+  return <img className={className} src="public/img/streamLogo_S.png" alt="streamLogo" />;
 };
 
 const LoginBoxBackground = () => {
@@ -59,8 +59,8 @@ export class Branding {
   static LoginBackground = LoginBackground;
   static MenuLogo = MenuLogo;
   static LoginBoxBackground = LoginBoxBackground;
-  static AppTitle = 'JWF Dashboard';
-  static LoginTitle = 'JWF SmartDashboard';
+  static AppTitle = 'Stream Measurement Dashboard';
+  static LoginTitle = 'Welcome to your dashboard';
   static GetLoginSubTitle = (): null | string => {
     return null;
   };

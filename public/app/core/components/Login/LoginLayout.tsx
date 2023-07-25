@@ -106,11 +106,11 @@ export const getLoginStyles = (theme: GrafanaTheme2) => {
     `,
     loginLogo: css`
       width: 100%;
-      max-width: 60px;
+      max-width: 200px;
       margin-bottom: 15px;
 
       @media ${styleMixins.mediaUp(theme.v1.breakpoints.sm)} {
-        max-width: 100px;
+        max-width: 200px;
       }
     `,
     loginLogoWrapper: css`

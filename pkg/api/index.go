@@ -121,13 +121,13 @@ func (hs *HTTPServer) setIndexViewData(c *contextmodel.ReqContext) (*dtos.IndexV
 		NewGrafanaVersionExists:             hs.grafanaUpdateChecker.UpdateAvailable(),
 		AppName:                             setting.ApplicationName,
 		AppNameBodyClass:                    "app-grafana",
-		FavIcon:                             "public/img/jwf.png",
+		FavIcon:                             "public/img/streamLogo_S.png",
 		AppleTouchIcon:                      "public/img/apple-touch-icon.png",
-		AppTitle:                            "JWF",
+		AppTitle:                            "Stream Measurement",
 		NavTree:                             navTree,
 		Nonce:                               c.RequestNonce,
 		ContentDeliveryURL:                  hs.Cfg.GetContentDeliveryURL(hs.License.ContentDeliveryPrefix()),
-		LoadingLogo:                         "public/img/jwf.png",
+		LoadingLogo:                         "public/img/streamLogo_S.png",
 		IsDevelopmentEnv:                    hs.Cfg.Env == setting.Dev,
 	}
 
