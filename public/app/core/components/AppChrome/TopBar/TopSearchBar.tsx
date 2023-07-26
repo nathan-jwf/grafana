@@ -90,8 +90,8 @@ const getStyles = (theme: GrafanaTheme2) => ({
     },
   }),
   img: css({
-    height: theme.spacing(3),
-    width: theme.spacing(3),
+    height: theme.spacing(2.5),
+    width: theme.spacing(2.5),
   }),
   logo: css({
     display: 'flex',
