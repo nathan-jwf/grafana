@@ -94,7 +94,7 @@ const getResultItemStyles = (theme: GrafanaTheme2) => {
         bottom: 0,
         width: theme.spacing(0.5),
         borderRadius: theme.shape.radius.default,
-        backgroundImage: "linear-gradient(to right bottom, rgb(26, 117, 184), rgb(0, 58, 112))",
+        backgroundImage: theme.colors.gradients.brandVertical,
       },
     }),
     actionContainer: css({

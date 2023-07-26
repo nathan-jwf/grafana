@@ -123,7 +123,7 @@ function getStyles(theme: GrafanaTheme2) {
         position: 'absolute',
         left: '-7px',
         top: 0,
-        background: "linear-gradient(to right bottom, rgb(26, 117, 184), rgb(0, 58, 112))",
+        background: theme.colors.gradients.brandVertical,
         width: theme.spacing(0.5),
         borderRadius: theme.shape.borderRadius(1),
       },
