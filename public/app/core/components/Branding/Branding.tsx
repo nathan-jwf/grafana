@@ -10,7 +10,7 @@ export interface BrandComponentProps {
 }
 
 export const LoginLogo: FC<BrandComponentProps & { logo?: string }> = ({ className, logo }) => {
-  return <img className={className} src={`${logo ? logo : 'public/img/stream-logo-grey.png'}`} alt="JWF" />;
+  return <img className={className} src={`${logo ? logo : 'public/img/StreamLogoWhite.svg'}`} alt="Stream" />;
 };
 
 const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
