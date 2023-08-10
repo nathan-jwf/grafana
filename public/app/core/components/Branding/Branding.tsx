@@ -19,23 +19,21 @@ const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
   const background = css`
     &:before {
       content: '';
-      position: fixed;
+      position: absolute;
       left: 0;
       right: 0;
       bottom: 0;
       top: 0;
-      background: linear-gradient(to right bottom, #6b9a4c, #67974a, #5c8e45, #67974a, #6b9a4c);
+      background: linear-gradient(to left top, #486734, #5b8642, #6b9a4c);
       background-position: top center;
       background-size: auto;
-      background-repeat: no-repeat;
+
       opacity: 0;
       transition: opacity 3s ease-in-out;
 
       @media ${styleMixins.mediaUp(theme.v1.breakpoints.md)} {
         background-position: center;
         background-size: cover;
-        background: url(public/img/JWF_Background.svg);
-        background-repeat: no-repeat;
       }
     }
   `;
